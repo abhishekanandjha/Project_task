@@ -1,0 +1,75 @@
+.pic1{
+    background-image: url("../Contactus/3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pic1 h2{
+    font-size: 100px;
+    padding-top: 100px;
+    padding-left: 150px;
+    color: #e4e1da;
+    font-style: inherit;
+
+}
+.teleimg{
+    background-image: url("../Contactus/4.png");
+    height: 400px;
+    width: 500px;
+    padding: 30px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+}
+
+.para{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -40px;
+}
+.left{
+    color: #ffd013;
+}
+.middle {
+    height: 300px;
+    width: 2px;
+    background-color: #fff;
+    position: relative;
+    top: -80px;
+}
+.registration button{
+    font-size: 20px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    background-color: #ffd013;
+}
+.home{
+    display: flex;
+    position: relative;
+    top: -23px;
+}
+.home p{
+    font-size: 20px;
+    position: relative;
+    top: -24px;
+}
+
+.pic2{
+    background-image: url("../Contactus/6.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
