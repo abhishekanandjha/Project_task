@@ -44,7 +44,7 @@ const Contact = () => {
                 {/* <div className='pic2'> */}
                 <h1 className='text-center uppercase text-3xl font-bold md:text-7xl'>our location</h1>
                 <div className='w-full h-[80%]'>
-                    <iframe className='flex w-[100%] h-[98%]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.282371686708!2d77.35004491353396!3d28.620152160741206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1684655226564!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='flex w-[100%] h-[98%]' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.282371686708!2d77.35004491353396!3d28.620152160741206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1684655226564!5m2!1sen!2sin" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div>
                     <input type='text' name='text' placeholder='search' className='h-16 w-[60%] mt-2 text-center rounded-lg text-4xl ' />

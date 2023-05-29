@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router';
 import Courses from './Components/Courses';
 import Contact from './Components/Contact';
 import CoursePage from './Components/CoursePage';
+import CourseVideo1 from './Components/CourseVideo1';
 function App() {
   const img = [{url : '4.png'}, {url : '11.png'}, {url :'10.png'}];
   return (
@@ -21,8 +22,9 @@ function App() {
         <Route path='/signup' element={<Signup />}></Route>
         <Route path='/forgotpassword' element={<ForgotPassword />}></Route>
         <Route path='/courses' element={<Courses />}></Route>
+        <Route path='/CourseVideo1' element={<CourseVideo1 />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
-        <Route path='/course' element={<CoursePage images={img} courseName='Aviation' desc='Enroll to our Aviation Course' />}></Route>
+        <Route path='/coursePage' element={<CoursePage images={img} courseName='Aviation' desc='Enroll to our Aviation Course' />}></Route>
       </Routes>
       <Footer />
     </div>

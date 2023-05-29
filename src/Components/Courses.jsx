@@ -1,7 +1,9 @@
 import { TextField } from '@mui/material'
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
-import CourseCard from '../Components/CourseCard'
+import CourseCard from '../Components/CourseCard';
+
+
 function Courses() {
     return (
         <div className='mt-2 flex h-full w-full justify-center items-center'>
